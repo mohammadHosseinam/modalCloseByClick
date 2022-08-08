@@ -1,0 +1,27 @@
+.modal{
+   width: 70%;
+   height: 70%;
+   border-radius: 8px;
+   background-color: lightgoldenrodyellow;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: flex-end;
+   display: none;
+}
+.modal-btn{
+    margin: 32px;
+    background-color: crimson;
+    border: none;
+    color: #fafafa;
+    padding: 8px;
+    border-radius: 50%;
+}
+.modal-text{
+    padding: 32px;
+    font-size: 24px;
+    flex-grow: 1;
+}
+.flex-grow{
+    flex-grow: 1;
+}
